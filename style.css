@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Avenir-Roman",Helvetica,"Helvetica Neue",Arial,sans-serif;
+}
+header{
+    background-color: #31006E;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brand{
+    width: 220px;
+}
+.nav-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.hamburger{
+    display: none;
+}
+.ham{
+    width: 40px;
+}
+.section{
+    padding: 60px 0;
+    color: white;
+    float: left;
+    width: 100%;
+}
+.s1{
+    margin-top: 80px;
+    background-image: url(https://www.cotiviti.com.np/sites/all/modules/banner/img/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: #31006E;
+}
+.c1{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.h-primary{
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    position: relative;
+    animation: move-to-right 0.5s ease-in-out;
+}
+.box{
+    background-color: #fff;
+    padding: 40px;
+    position: relative;
+    animation: move-to-right 0.5s ease-in-out;
+}
+@keyframes move-to-right {
+    from {left: -30px;}
+    to {left: 0;}
+}
+.box small{
+    color: grey;
+    font-size: 15px;
+}
+.box h2{
+    color: #31006E;
+    font-size: 44px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+.box p{
+    color: #ec008c;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.s2{
+    background: white url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/building.png) no-repeat 90% 100%;
+    margin-top: 50px;
+}
+.width{
+    width: 48%;
+    padding: 30px 0;
+}
+.width h2{
+    color: #2e3192;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-size: 38px;
+    font-family: "Avenir-Light",Helvetica,sans-serif;
+}
+.width p{
+    color: black;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.btn{
+    height: 40px;
+    border: 1px solid rgb(38, 38, 197);
+    border-radius: 3px;
+    background: none;
+}
+.btn:hover{
+    background-color: #ec008c;
+    border: 1px solid #ec008c;
+    transition: all ease-in-out 1s;
+}
+.btn a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+}
+.btn a:hover{
+    color: white;
+}
+.s3{
+    background-color: #00adee;
+}
+.c2{
+    flex-direction: column;
+    justify-content: center;
+}
+.c2 h2{
+    font-weight: normal;
+    font-size: 38px;
+    margin: 25px 0;
+}
+.c2 p{
+    font-size: 15px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    text-align: center;
+}
+.white{
+    border: 1px solid white;
+}
+.white:hover{
+    border: 1px solid white;
+}
+.white a{
+    color: white;
+}
+.s4{
+    height: 420px;
+    background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/parallax-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.s5{
+    background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/join.png) no-repeat bottom;
+}
+.c3{
+    flex-direction: column;
+    justify-content: center;
+}
+.box1{
+    width: 100%;
+    color: black;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1 h2{
+    color: #2e3192;
+    font-weight: normal;
+    font-size: 38px;
+    margin: 20px 0;
+}
+.box1 small{
+    font-size: 15px;
+    margin: 30px 0;
+}
+.skills{
+    width: 70%;
+}
+.skills ul{
+    list-style-type: none;
+}
+.skill{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.122);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.skills ul li:last-child div{
+    border: none;
+}
+.skill a{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    padding: 30px 0;
+    color: #ec008c;
+    font-size: 22px;
+}
+.skill a i{
+    color: #2e3192;
+    font-weight: 600;
+}
+.skill a:hover{
+    color: #2e3192;
+}
+.box2 img{
+    margin-top: 30px;
+}
+.box2 h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    margin: 15px 0;
+}
+.box2 p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+    margin-bottom: 40px;
+}
+.buttons{
+    margin-bottom: 80px;
+}
+.s6{
+    background:  url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/csr-section-bg.jpg) #2c3990 no-repeat bottom center;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.b1 h4{
+    font-size: 25px;
+    font-weight: normal;
+}
+.b1 p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+.footer{
+    flex-direction: column;
+    padding: 30px 0;
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul1{
+    width: 50%;
+    height: 170px;
+}
+.ul1 ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.ul1 ul li{
+    margin-bottom: 7px;
+}
+.ul1 ul li a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+}
+.ul1 ul li a:hover{
+    color: #ec008c;
+}
+
+.ul2{
+    width: 30%;
+    height: 170px;
+}
+.ul2 ul{
+    list-style-type: none;
+}
+.ul2 ul li{
+    color: rgb(117, 117, 117);
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+.black{
+    color: black;
+    font-weight: bold;
+}
+h5{
+    color: #2c3990;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.foot2{
+    margin: 40px 0;
+}
+.foot2 p{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
